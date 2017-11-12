@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.07.26" orientation="orthogonal" renderorder="left-down" width="240" height="13" tilewidth="16" tileheight="16" nextobjectid="29">
+ <tileset firstgid="1" source="toledo-mario-1.tsx"/>
+ <tileset firstgid="697" source="toledo-mario-2.tsx"/>
+ <layer name="background" width="240" height="13" offsetx="-1" offsety="-0.5">
+  <data encoding="base64" compression="zlib">
+   eJztw6ENAAAMAjDMDuZ/wxVzbdJeUlVVVVVVVVVVVVVV1ccDgx+ebA==
+  </data>
+ </layer>
+ <layer name="graphics" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEOgkAURdGfGdiBuiPt1F1op2xPO92BW9BaLdTeVzAJmCFiIiDxnuQFEkiY5haYAfhn09Rsps3Trk8C4FMrdbvWski/oe3i6Bzoh9B2cbHOAfyOg+v6BAAAAAAAfM/rf+7Wxa9tGidmk6T97wKotvNme//+vYXaXdIv0JibOrxrj7zHOm0e9fxEv0Ajzmrrol199X0wUF9DbZR3VqdN+gXKNo4x1tc9AVbt0Vg=
+  </data>
+ </layer>
+ <objectgroup name="ground">
+  <object id="5" x="0.5" y="192.5" width="2496" height="14"/>
+ </objectgroup>
+ <objectgroup name="pipes">
+  <object id="20" x="545" y="160" width="30.5" height="33"/>
+  <object id="21" x="688" y="145.5" width="29.5" height="45.5"/>
+  <object id="22" x="849" y="128.5" width="30" height="64.5"/>
+ </objectgroup>
+ <objectgroup name="coins">
+  <object id="27" x="255" y="127.5" width="16.5" height="15.5"/>
+  <object id="28" x="352" y="63" width="16" height="16.5"/>
+ </objectgroup>
+ <objectgroup name="bricks">
+  <object id="7" x="320" y="128.5" width="16.5" height="15"/>
+  <object id="8" x="353" y="129.5" width="15" height="13.5"/>
+  <object id="9" x="383.5" y="129" width="16.5" height="14.5"/>
+ </objectgroup>
+</map>

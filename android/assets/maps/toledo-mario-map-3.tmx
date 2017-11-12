@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.07.26" orientation="orthogonal" renderorder="left-down" width="100" height="50" tilewidth="16" tileheight="16" nextobjectid="12">
+ <tileset firstgid="1" source="toledo-mario-2.tsx"/>
+ <layer name="background" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztw7EJAAAIA7Di/x938Q4lgXSSqqqqqqqqqqqq6vEAAAAAAAAAAADwwQJwbKc8
+  </data>
+ </layer>
+ <layer name="graphics" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEJwzAURMGgGtKJC0hjLlBl+eJLAsEhyPbqMwN7FBI80NIe0+v7Klj0iKJHFj2yfPZ4/XBmPeUl/6vcY0Z6ZNEjix5Z9Miix7t+8Sob1eMqehzTY5wKPSr9Y3pk0SOLHln0yKJHFj2y6JFlth7f7r/7DaPokUWPLM9mSQMAAAAAAAAAAIAKNoyjVvQ=
+  </data>
+ </layer>
+ <objectgroup name="wall">
+  <object id="1" x="-2" y="0.5" width="14" height="399.5"/>
+  <object id="2" x="272" y="160.75" width="15.5" height="222.5"/>
+  <object id="3" x="288.25" y="160.25" width="430.5" height="15.5"/>
+  <object id="4" x="13.25" y="384.25" width="1587" height="15.5"/>
+  <object id="5" x="704" y="175.75" width="16.5" height="160.5"/>
+  <object id="6" x="784.75" y="208.75" width="31" height="175.5"/>
+  <object id="7" x="785" y="0.75" width="31" height="159.5"/>
+ </objectgroup>
+ <objectgroup name="weapon">
+  <object id="11" x="65.25" y="64.25" width="13" height="15.5">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="coin">
+  <object id="8" x="210.5" y="66.5" width="9.5" height="13">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

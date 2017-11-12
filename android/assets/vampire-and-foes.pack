@@ -1,0 +1,26 @@
+
+vampire-and-foes.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+vampire-animation
+  rotate: false
+  xy: 0, 0
+  size: 64, 16
+  orig: 64, 16
+  offset: 0, 0
+  index: -1
+loving-vampire2
+  rotate: false
+  xy: 64, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+snake
+  rotate: false
+  xy: 80, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
